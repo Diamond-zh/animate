@@ -1,0 +1,43 @@
+.tran3 {
+	transition: all 0.3s ease-in-out;
+}
+
+.tran5 {
+	transition: all 0.5s ease-in-out;
+}
+
+.localPhoto li:hover {
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.localPhoto li:hover img {
+	transform: scale(1.2);
+}
+
+.case_list .case_list_img img {
+	transform: scale(1.1);
+}
+
+.case_list li:hover .case_list_img img {
+	transform: scale(1.0);
+}
+
+.case_list li:hover .case_list_shadow {
+	opacity: 1;
+}
+
+.case_list li:hover span {
+	background-color: #0592BE;
+}
+
+.bride_set li span {
+	transform: rotateY(90deg);
+}
+
+.bride_set li:hover span {
+	transform: rotateY(0deg);
+}
+
+.contact-Box li:hover span {
+	background-position-y: -125px;
+}
